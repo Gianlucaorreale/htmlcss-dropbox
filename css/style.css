@@ -3,3 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* HEADER */
+
+.header-container {
+position: fixed;
+height: 50px;
+width:100%;
+background-color: white;
+border: dashed;
+display: flex;
+justify-content: space-between;
+
+}
+
+.left-header, ul {
+    display: flex;
+}
+
+.right-header, ul {
+    display: flex;
+}
+
+li {
+    margin: 15px;
+    list-style-type: none;
+}
+
+.logo-dropbox {
+    height: 20px;
+    margin-top:14px;
+}
+
+/*GENERICS*/
+.btn {
+ padding: 5px 10px ;
+ margin-bottom: 10px;
+ 
+}
+
+.btn-blue {
+    background-color: blue;
+    color: white;
+    border: blue;
+   
+}
