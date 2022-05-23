@@ -10,15 +10,43 @@ body {
 
 /* HEADER */
 
-.header-container {
+.first-header-container {
 position: fixed;
 height: 50px;
 width:100%;
 background-color: white;
-border: dashed;
 display: flex;
 justify-content: space-between;
 
+}
+
+.second-header-container {
+   height:600px;
+   background-color: #B4D0E7;
+   padding-top: 50px;
+   
+
+}
+
+.contained {
+    margin: 0 auto;
+    width: 900px;
+    max-height: 600px;
+    
+}
+
+.first-col {
+    margin-left: 0;
+    margin-top: 30px;
+    max-width: 300px;
+    
+}
+
+.second-col {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
 }
 
 .left-header, ul {
@@ -39,10 +67,16 @@ li {
     margin-top:14px;
 }
 
+.jumbo {
+    height:300px;
+   
+}
+
 /*GENERICS*/
 .btn {
  padding: 5px 10px ;
  margin-bottom: 10px;
+ 
  
 }
 
@@ -52,3 +86,15 @@ li {
     border: blue;
    
 }
+
+.start {
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    margin-top:60px;
+}
+
