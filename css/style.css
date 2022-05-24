@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
 }
 
 /* HEADER */
@@ -91,9 +92,9 @@ li {
 .btn {
  padding: 5px 10px ;
  margin-bottom: 10px;
- 
- 
-}
+ margin: 0px 10px;
+ font-size: 14px;
+ }
 
 .btn-blue {
     background-color: blue;
@@ -136,14 +137,14 @@ span {
     margin-right: 30px;
 }
 
-.user {
+i {
     margin-right: 10px;
 }
 .first {
-    padding-left: 55px;
+    padding-left: 45px;
     padding-bottom: 10px;
     border-bottom: 1px solid lightgrey;
-    width: 100%;
+   /* width: 100%;*/
 }
 
 
@@ -162,6 +163,7 @@ span {
 
 .cards-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -170,4 +172,11 @@ span {
     margin-right: 30px;
 }
 
+.users {
+        margin-top: 50px;
+        margin-bottom: 50px;
+}
 
+.highlights {
+    margin-top: 50px;
+}
