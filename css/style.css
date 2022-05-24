@@ -141,10 +141,19 @@ i {
     margin-right: 10px;
 }
 .first {
-    padding-left: 45px;
+   text-align: center;
     padding-bottom: 10px;
     border-bottom: 1px solid lightgrey;
    /* width: 100%;*/
+}
+
+.center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -163,14 +172,17 @@ i {
 
 .cards-container {
     display: flex;
-    flex-wrap: wrap;
+    margin-bottom: 30px;
+    
 }
 
 .card {
-    width: calc(100% / 3 - 60px);
+    width: 100%;
     border: 1px solid lightgray;
     margin-right: 30px;
 }
+
+
 
 .users {
         margin-top: 50px;
