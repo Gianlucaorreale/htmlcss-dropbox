@@ -160,6 +160,10 @@ i {
     text-align: center;
 }
 
+.fa-check {
+    color: blue;
+}
+
 .d-flex {
     display: flex;
     justify-content: space-between;
@@ -179,10 +183,6 @@ i {
 .padding {
     padding-top: 125px;
 }
-
-
-
-
 /*MAIN*/
 .section {
     margin: 0 auto;
