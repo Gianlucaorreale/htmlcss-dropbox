@@ -40,6 +40,10 @@ justify-content: space-between;
     width:70%;
 }
 
+.w-60 {
+    width: 60%;
+}
+
 .contained {
     margin: 0 auto;
     width: 900px;
@@ -84,15 +88,12 @@ li {
 
 .jumbo {
     width:100%;
-
-   
 }
 
 /*GENERICS*/
 .btn {
  padding: 5px 10px ;
  margin-bottom: 10px;
- margin: 0px 10px;
  font-size: 14px;
  }
 
@@ -101,6 +102,12 @@ li {
     color: white;
     border: blue;
    
+}
+
+.btn-white {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
 }
 
 .start {
@@ -156,6 +163,18 @@ i {
     justify-content: space-between;
 }
 
+.dsc-margin {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.margin {margin: 0px 10px;}
+
+
 
 /*MAIN*/
 .section {
@@ -176,13 +195,28 @@ i {
     
 }
 
+.blocks-container {
+    display: flex;
+    width: 33%;
+    margin: 30px 0px;
+    
+    
+}
+
 .card {
     width: 100%;
     border: 1px solid lightgray;
     margin-right: 30px;
 }
 
+.block {
+    width: 100%;
+    margin-right: 30px;
+}
 
+.bg-block {
+    height: 150px;
+}
 
 .users {
         margin-top: 50px;
@@ -192,3 +226,21 @@ i {
 .highlights {
     margin-top: 50px;
 }
+
+.partner-container {
+    margin-top: 100px;
+}
+
+.operations {
+    margin-top: 100px;
+    
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+    
+
