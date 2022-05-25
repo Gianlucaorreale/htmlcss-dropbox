@@ -250,6 +250,8 @@ i {
     margin-top: 40px;
 }
 
+.second-section {margin-top:150px}
+
 .squares-container {
    
    display: flex; 
@@ -257,14 +259,12 @@ i {
 
 .squares-container .square {
     width:  calc(100vw / 3);
-    border: 1px solid red;
     height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
 }
 
 .squares-container .square .small-square {
-    border: 1px solid red;
     width: 50%;
     height: 50%;
     display: flex;
@@ -275,6 +275,15 @@ i {
 .square .small-square img {
     width: 50%;
     filter: invert(1);
+}
+
+.square-alone img {
+    width: 50%;
+    margin-left: 45px;
+}
+
+.square-alone p {
+    margin: 10px 45px;
 }
 
 .bg-green {
@@ -300,6 +309,10 @@ i {
 }
 .bg-yellow{
     background-color:#FFD830;
+}
+
+.bg-light-gray {
+    background-color: #F5F5F5
 }
 
 
